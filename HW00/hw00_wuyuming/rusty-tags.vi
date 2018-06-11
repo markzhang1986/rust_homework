@@ -1,0 +1,112 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+ACC_GROUP_LENS	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^const ACC_GROUP_LENS: [u8; 5] = [8, 12, 16, 20, 32];$/;"	c
+ConstRand	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.22/src/distributions/mod.rs	/^    struct ConstRand(usize);$/;"	s
+ConstRng	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.22/src/lib.rs	/^    struct ConstRng { i: u64 }$/;"	s
+ConstantRng	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.22/src/rand_impls.rs	/^    struct ConstantRng(u64);$/;"	s
+CountingRng	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.22/src/distributions/mod.rs	/^    struct CountingRng { i: u32 }$/;"	s
+Err	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    type Err = ParseError;$/;"	T
+GROUP_LENS	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^const GROUP_LENS: [u8; 5] = [8, 4, 4, 4, 12];$/;"	c
+MyRng	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.22/src/lib.rs	/^    pub struct MyRng<R> { inner: R }$/;"	s
+ParseError	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^pub enum ParseError {$/;"	g
+Uuid	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^pub struct Uuid {$/;"	s
+UuidBytes	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^pub type UuidBytes = [u8; 16];$/;"	T
+UuidFields	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^struct UuidFields {$/;"	s
+UuidVariant	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^pub enum UuidVariant {$/;"	g
+UuidVersion	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^pub enum UuidVersion {$/;"	g
+UuidVisitor	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^        struct UuidVisitor;$/;"	s
+Value	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^            type Value = Uuid;$/;"	T
+as_bytes	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    pub fn as_bytes<'a>(&'a self) -> &'a [u8] {$/;"	f
+copy_memory	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^fn copy_memory(dst: &mut [u8], src: &[u8]) {$/;"	f
+create_uuids	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    pub fn create_uuids(b: &mut Bencher) {$/;"	f
+decode	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<Uuid, D::Error> {$/;"	f
+default	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    fn default() -> Uuid {$/;"	f
+description	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    fn description(&self) -> &str {$/;"	f
+deserialize	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    fn deserialize<D: Deserializer>(deserializer: &mut D) -> Result<Self, D::Error> {$/;"	f
+encode	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    fn encode<E: Encoder>(&self, e: &mut E) -> Result<(), E::Error> {$/;"	f
+eq	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    fn eq(&self, other: &Uuid) -> bool {$/;"	f
+floating_point_edge_cases	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.22/src/rand_impls.rs	/^    fn floating_point_edge_cases() {$/;"	f
+fmt	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {$/;"	f
+from_bytes	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    pub fn from_bytes(b: &[u8]) -> Option<Uuid> {$/;"	f
+from_fields	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    pub fn from_fields(d1: u32, d2: u16, d3: u16, d4: &[u8]) -> Uuid {$/;"	f
+from_str	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    fn from_str(us: &str) -> Result<Uuid, ParseError> {$/;"	f
+get_variant	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    pub fn get_variant(&self) -> Option<UuidVariant> {$/;"	f
+get_version	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    pub fn get_version(&self) -> Option<UuidVersion> {$/;"	f
+get_version_num	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    pub fn get_version_num(&self) -> usize {$/;"	f
+hash	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    fn hash<S: hash::Hasher>(&self, state: &mut S) {$/;"	f
+is_nil	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    pub fn is_nil(&self) -> bool {$/;"	f
+iter_eq	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.22/src/lib.rs	/^    pub fn iter_eq<I, J>(i: I, j: J) -> bool$/;"	f
+main	/Users/alice/Codes/CIS198_Rust/rust_homework/HW00/hw00_wuyuming/src/main.rs	/^fn main() {$/;"	f
+new	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    pub fn new(v: UuidVersion) -> Option<Uuid> {$/;"	f
+new_v4	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    pub fn new_v4() -> Uuid {$/;"	f
+next	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.22/src/lib.rs	/^            fn next<T: Rng>(t: &mut T) -> u32 {$/;"	f
+next_u32	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.22/src/distributions/mod.rs	/^        fn next_u32(&mut self) -> u32 {$/;"	f
+next_u32	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.22/src/lib.rs	/^        fn next_u32(&mut self) -> u32 { self.i as u32 }$/;"	f
+next_u32	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.22/src/lib.rs	/^        fn next_u32(&mut self) -> u32 {$/;"	f
+next_u32	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.22/src/rand_impls.rs	/^        fn next_u32(&mut self) -> u32 {$/;"	f
+next_u64	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.22/src/distributions/mod.rs	/^        fn next_u64(&mut self) -> u64 {$/;"	f
+next_u64	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.22/src/lib.rs	/^        fn next_u64(&mut self) -> u64 { self.i }$/;"	f
+next_u64	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.22/src/rand_impls.rs	/^        fn next_u64(&mut self) -> u64 {$/;"	f
+nil	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    pub fn nil() -> Uuid {$/;"	f
+parse_str	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    pub fn parse_str(b: &mut Bencher) {$/;"	f
+parse_str	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    pub fn parse_str(mut input: &str) -> Result<Uuid, ParseError> {$/;"	f
+rand	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.22/src/distributions/mod.rs	/^        fn rand<R: Rng>(_: &mut R) -> ConstRand {$/;"	f
+rand	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    fn rand<R: rand::Rng>(rng: &mut R) -> Uuid {$/;"	f
+rand_closed	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.22/src/rand_impls.rs	/^    fn rand_closed() {$/;"	f
+rand_open	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.22/src/rand_impls.rs	/^    fn rand_open() {$/;"	f
+rng	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.22/src/lib.rs	/^    pub fn rng() -> MyRng<::ThreadRng> {$/;"	f
+serialize	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    fn serialize<S: Serializer>(&self, serializer: &mut S) -> Result<(), S::Error> {$/;"	f
+set_variant	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    fn set_variant(&mut self, v: UuidVariant) {$/;"	f
+set_version	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    fn set_version(&mut self, v: UuidVersion) {$/;"	f
+t	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.22/src/distributions/mod.rs	/^        macro_rules! t {$/;"	d
+test_as_bytes	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    fn test_as_bytes() {$/;"	f
+test_bytes_roundtrip	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    fn test_bytes_roundtrip() {$/;"	f
+test_choose	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.22/src/lib.rs	/^    fn test_choose() {$/;"	f
+test_compare	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    fn test_compare() {$/;"	f
+test_fill_bytes_default	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.22/src/lib.rs	/^    fn test_fill_bytes_default() {$/;"	f
+test_from_bytes	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    fn test_from_bytes() {$/;"	f
+test_from_fields	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    fn test_from_fields() {$/;"	f
+test_gen_ascii_str	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.22/src/lib.rs	/^    fn test_gen_ascii_str() {$/;"	f
+test_gen_range	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.22/src/lib.rs	/^    fn test_gen_range() {$/;"	f
+test_gen_range_panic_int	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.22/src/lib.rs	/^    fn test_gen_range_panic_int() {$/;"	f
+test_gen_range_panic_usize	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.22/src/lib.rs	/^    fn test_gen_range_panic_usize() {$/;"	f
+test_gen_vec	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.22/src/lib.rs	/^    fn test_gen_vec() {$/;"	f
+test_gen_weighted_bool	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.22/src/lib.rs	/^    fn test_gen_weighted_bool() {$/;"	f
+test_get_variant	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    fn test_get_variant() {$/;"	f
+test_get_version	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    fn test_get_version() {$/;"	f
+test_iterbytes_impl_for_uuid	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    fn test_iterbytes_impl_for_uuid() {$/;"	f
+test_new	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    fn test_new() {$/;"	f
+test_new_v4	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    fn test_new_v4() {$/;"	f
+test_nil	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    fn test_nil() {$/;"	f
+test_operator_eq	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    fn test_operator_eq() {$/;"	f
+test_parse_uuid_v4	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    fn test_parse_uuid_v4() {$/;"	f
+test_rand_rand	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    fn test_rand_rand() {$/;"	f
+test_rand_sample	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.22/src/distributions/mod.rs	/^    fn test_rand_sample() {$/;"	f
+test_random	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.22/src/lib.rs	/^    fn test_random() {$/;"	f
+test_rng_trait_object	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.22/src/lib.rs	/^    fn test_rng_trait_object() {$/;"	f
+test_sample	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.22/src/lib.rs	/^    fn test_sample() {$/;"	f
+test_serialize_round_trip	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    fn test_serialize_round_trip() {$/;"	f
+test_shuffle	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.22/src/lib.rs	/^    fn test_shuffle() {$/;"	f
+test_std_rng_reseed	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.22/src/lib.rs	/^    fn test_std_rng_reseed() {$/;"	f
+test_std_rng_seeded	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.22/src/lib.rs	/^    fn test_std_rng_seeded() {$/;"	f
+test_string_roundtrip	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    fn test_string_roundtrip() {$/;"	f
+test_thread_rng	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.22/src/lib.rs	/^    fn test_thread_rng() {$/;"	f
+test_to_hyphenated_string	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    fn test_to_hyphenated_string() {$/;"	f
+test_to_simple_string	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    fn test_to_simple_string() {$/;"	f
+test_to_simple_string_matching	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    fn test_to_simple_string_matching() {$/;"	f
+test_to_string	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    fn test_to_string() {$/;"	f
+test_to_urn_string	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    fn test_to_urn_string() {$/;"	f
+test_weak_rng	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.22/src/lib.rs	/^    fn test_weak_rng() {$/;"	f
+test_weighted_choice	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.22/src/distributions/mod.rs	/^    fn test_weighted_choice() {$/;"	f
+test_weighted_choice_no_items	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.22/src/distributions/mod.rs	/^    fn test_weighted_choice_no_items() {$/;"	f
+test_weighted_choice_weight_overflows	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.22/src/distributions/mod.rs	/^    fn test_weighted_choice_weight_overflows() {$/;"	f
+test_weighted_choice_zero_weight	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.22/src/distributions/mod.rs	/^    fn test_weighted_choice_zero_weight() {$/;"	f
+test_weighted_clone_change_item	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.22/src/distributions/mod.rs	/^    fn test_weighted_clone_change_item() {$/;"	f
+test_weighted_clone_change_weight	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.22/src/distributions/mod.rs	/^    fn test_weighted_clone_change_weight() {$/;"	f
+test_weighted_clone_initialization	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.22/src/distributions/mod.rs	/^    fn test_weighted_clone_initialization() {$/;"	f
+to_hyphenated_string	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    pub fn to_hyphenated_string(&self) -> String {$/;"	f
+to_simple_string	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    pub fn to_simple_string(&self) -> String {$/;"	f
+to_urn_string	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    pub fn to_urn_string(&self) -> String {$/;"	f
+uuid_to_string	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^    pub fn uuid_to_string(b: &mut Bencher) {$/;"	f
+visit_bytes	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^            fn visit_bytes<E: de::Error>(&mut self, value: &[u8]) -> Result<Uuid, E> {$/;"	f
+visit_str	/Users/alice/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.1.18/src/lib.rs	/^            fn visit_str<E: de::Error>(&mut self, value: &str) -> Result<Uuid, E> {$/;"	f
