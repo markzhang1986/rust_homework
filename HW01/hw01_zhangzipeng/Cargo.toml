@@ -1,0 +1,6 @@
+[package]
+name = "hw01_zhangzipeng"
+version = "0.1.0"
+authors = ["zhang zipeng <zpzhang266@gmail.com>"]
+
+[dependencies]
