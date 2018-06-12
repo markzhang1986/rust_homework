@@ -1,0 +1,6 @@
+[package]
+name = "hw01_wuyuming"
+version = "0.1.0"
+authors = ["SilentAlice <yumingwu233@gmail.com>"]
+
+[dependencies]
